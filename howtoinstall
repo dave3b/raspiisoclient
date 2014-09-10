@@ -9,7 +9,10 @@
 6. copy the folder "Scripte" to "/home/pi/Scripte"
 7. copy "isoclient.desktop" to "/home/pi/.config/autostart"
   (you should find it in the "Scripte" folder, a symbolic link to autostart will also work)
-  
+8. *caution dirty hack* add "chmod 777 /dev/ttyACM0" at rc.local
+9. deactivate all automounts in "pcmanFM"
+10. add user pi in sudoers file for poweroff command
+
 # using
 connect your camera and arduino via usb to raspi (the usb connection can be used to supply the arduino)
 boot the raspi
