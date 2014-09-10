@@ -4,6 +4,7 @@
 2. configure default user "pi" as autologin
 3. install all necessary development tools (using apt-get install xxx)
    * libltdl-dev
+   * libpopt-dev
 4. download the newest version of gphoto2 and libgphoto2 (gphoto2 2.5.5 and libgphoto2 2.5.5.1 or above)
   it is strongly recommended using the newest version, because it has important bugfixed for canon cameras
 5. built and install gphoto
