@@ -1,0 +1,3 @@
+chmod 777 auf /dev/ttyACM0 in rc.local eingetragen (root rechte nötig umd schreibrechte zu ändern, deshalb nicht im script, normaler user kann sonst nicht mit ttyACM0 kommunizieren)
+in pcmanFM alle Datenträgerautomatismen deaktiviert, damit Camera nicht gemountet wird und Zugriff auf USB Schnittstelle für gphoto frei bleibt
+user pi in suders file für poweroff ohne passwort eingetragen

@@ -1,0 +1,6 @@
+[Desktop Entry]
+name=ISOclient
+Exec='lxterminal --commad=./isoclient.sh'
+terminal=true
+type=application
+categories=other
