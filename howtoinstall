@@ -6,9 +6,9 @@
 4. download the newest version of gphoto2 and libgphoto2 (gphoto2 2.5.5 and libgphoto2 2.5.5.1 or above)
   it is strongly recommended using the newest version, because it has important bugfixed for canon cameras
 5. built and install gphoto
-6. copy the foulder "Scripte" to "/home/pi/Scripte"
+6. copy the folder "Scripte" to "/home/pi/Scripte"
 7. copy "isoclient.desktop" to "/home/pi/.config/autostart"
-  (you should find it in the "Scripte" foulder, a symbolic link to autostart will also work)
+  (you should find it in the "Scripte" folder, a symbolic link to autostart will also work)
   
 # using
 connect your camera and arduino via usb to raspi (the usb connection can be used to supply the arduino)
