@@ -2,10 +2,15 @@
 
 1. install raspbian with gui (LXDE or something else)
 2. configure default user "pi" as autologin
-3. install all necessary development tools
+3. install all necessary development tools (using apt-get install xxx)
+   * libltdl-dev
 4. download the newest version of gphoto2 and libgphoto2 (gphoto2 2.5.5 and libgphoto2 2.5.5.1 or above)
   it is strongly recommended using the newest version, because it has important bugfixed for canon cameras
 5. built and install gphoto
+   * enter un-tar-gzipped libgphoto2 directory.
+   * ./configure, make, make install
+   * if any of the above report missing dependencies, find and install the missing bits (apt-cache search xxx, etc)
+   * The same for the gphoto2 directory.
 6. copy the folder "Scripte" to "/home/pi/Scripte"
 7. copy "isoclient.desktop" to "/home/pi/.config/autostart"
   (you should find it in the "Scripte" folder, a symbolic link to autostart will also work)
