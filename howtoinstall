@@ -29,6 +29,8 @@
    [note from dave to ylf: ttyACM0 doesn't exist on my installation of PI]
 
 9. deactivate all automounts in "pcmanFM"
+   [welche "all" automounts? Und ist das nicht etwas, was man etwas gewohnter auch auf der Kommandozeile machen könnte?]
+
 10. add user pi in sudoers file for poweroff command
 
 # using
