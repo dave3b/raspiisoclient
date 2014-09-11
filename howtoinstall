@@ -26,7 +26,7 @@
    (you should find it in the "Scripte" folder, a symbolic link to autostart will also work)
   
 8. *caution dirty hack* add "chmod 777 /dev/ttyACM0" at rc.local
-   [note from dave to ylf: ttyACM0 doesn't exist on my installation of PI]
+   (ttyACM0 doesn't exist by default -- it is created when Arduino is connected.)
 
 9. deactivate all automounts in "pcmanFM"
    [welche "all" automounts? Und ist das nicht etwas, was man etwas gewohnter auch auf der Kommandozeile machen könnte?]
